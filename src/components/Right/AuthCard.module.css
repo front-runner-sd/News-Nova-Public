@@ -1,0 +1,53 @@
+.flexCard{
+    display: flex;
+    flex-direction: column;
+    background-color: #161818;
+    background: linear-gradient(to left, #212424 0%, black 100%);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    margin-right: 2rem;
+    padding: 2rem;
+    -webkit-box-shadow: -5px 7px 19px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 7px 19px -3px rgba(0,0,0,0.75);
+box-shadow: -5px 7px 19px -3px rgba(0,0,0,0.75);
+margin-left: 4rem;
+margin-right: 4rem;
+margin-bottom: 3rem;
+}
+
+.content{
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.btns{
+    display: flex;
+    gap: 4rem;
+}
+.btn{
+    padding: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+    transition: background-color 0.3s;
+    border: 2px solid white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    backdrop-filter: blur(8px);
+}
+.btn:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

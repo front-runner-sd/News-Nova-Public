@@ -1,0 +1,173 @@
+.Middle{
+    flex-basis: 62%;
+    max-width: 100rem;
+    min-width: 10rem;
+    flex-shrink: 0;
+    border-left: 2px solid #dbdbdb;
+    border-right: 2px solid #dbdbdb;
+    background-color: rgb(252, 252, 252);
+}
+
+.dateAndSearch{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #dbdbdb;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.test{
+    position: relative;
+    flex-basis:58%;
+    cursor: auto;
+    margin-left: 1rem;
+}
+
+.i_ele{
+    position:absolute;
+    font-size: 2rem;
+    /* padding-right: 42rem;
+    padding-top: 7.2rem; */
+    color: #777777;
+    z-index: 99;
+    margin-top:5.7rem;
+    padding-left: 2.4rem;
+}
+input.input{
+    background-color: #fcfcfc;
+    color: black;
+    position: relative;
+    height: 45px;
+    margin-top: 4.5rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px solid ;
+    font-size: 2rem;
+    padding-left: 7rem;
+    flex-basis: 70%;
+    border: 2px solid #cccccc;
+}
+input.input:focus{
+    outline: 2px solid #000725;
+    border: none;
+}
+.date{
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    flex-basis: 20%;
+}
+.upperDate{
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+.lowerDate{
+    color: #7c7c7c;
+    font-size: 1.7rem;
+    white-space: nowrap;
+}
+
+.topHeadlines h1{
+    font-size: 2.5rem;
+    padding-left: 7rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.trending h1{
+    font-size: 2.5rem;
+    padding-left: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.searchButton {
+    
+    padding: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 250% auto;
+    color: white;
+    display: block;
+    border: 0px;
+    font-size: 2rem;
+    box-shadow: 0px 0px 14px -7px #262626;
+    background-image: linear-gradient(45deg, #000000 0%, #454545  51%, #000000  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top:4.2rem;
+    margin-bottom:0.5rem;
+    height: 4.7rem;
+    border-radius: 5px;
+  }
+  
+  .searchButton:hover {
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+    transform: scale(1.02);
+  }
+  
+  .searchButton:active {
+    transform: scale(0.85);
+  }
+
+
+
+@media screen and (max-width: 1100px) {
+    .lowerDate{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 950px) {
+
+    .upperDate{
+        font-size: 2.5rem;
+    }
+    input.input{
+        margin-top: 4.5rem;
+    }
+    .searchButton{
+        margin-top:2.8rem;
+    }
+}
+@media screen and (max-width: 900px) {
+input.input{
+    margin-top: 3rem;
+}
+.date{
+    margin-top: 3rem;
+}
+.i_ele{
+    margin-top: 4.3rem;
+}
+.lowerDate{
+    white-space: nowrap;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+    input.input{
+        margin-left: 2rem;
+        font-size: 20px;
+        padding-left: 4.5rem;
+        /* padding-bottom: 2rem; */
+    }
+    .i_ele{
+        font-size: 18px;
+        margin-left: 1rem;
+        /* padding-right: 2rem; */
+    }
+    .overview{
+        padding-right: 4rem
+    }
+    .cardEle{
+        background-color: rgba(93, 85, 255, 0.048);    
+    }
+  }

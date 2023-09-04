@@ -1,0 +1,38 @@
+.poptxt{
+    font-size: 2rem;
+    text-align: center;
+}
+.popbtn{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgb(224, 0, 0);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.popbtn:hover{
+    background-color: rgb(156, 0, 0);
+}
+.card{
+    width: 31rem;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 2000;
+}
+.cardBg{
+    z-index: 2000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.177);
+}

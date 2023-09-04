@@ -1,0 +1,71 @@
+.productCarousel {
+    position: relative;
+    overflow: hidden;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    /* padding-top: 1rem; */
+    border-radius: 5px;
+    -webkit-box-shadow: -16px 18px 28px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: -16px 18px 28px -16px rgba(0,0,0,0.75);
+    box-shadow: -16px 18px 28px -10px rgba(0,0,0,0.75);
+    
+}
+
+.productContainer {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 44rem;
+    /* -webkit-box-shadow: -18px 16px 23px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -18px 16px 23px -14px rgba(0,0,0,0.75);
+    box-shadow: -18px 16px 23px -14px rgba(0,0,0,0.75); */
+}
+
+.preBtn,
+.nextBtn {
+    width: 5rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.preBtn:disabled  .left,
+.nextBtn:disabled .right{
+    opacity: 0.7; /* Reduced opacity when disabled */
+    cursor: not-allowed; /* Change cursor when disabled */
+}
+
+.nextBtn {
+    right: 1rem;
+}
+.preBtn{
+    left: 1rem;
+}
+.nextBtn .right,
+.preBtn .left {
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.505);
+    /* box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.611); */
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    z-index: 100;
+    visibility: hidden;
+}
+
+.nextBtn .right:hover,
+.preBtn .left:hover {
+    background-color: rgba(255, 255, 255, 0.895);
+}
+.productCarousel:hover  .nextBtn .right,
+.productCarousel:hover .preBtn .left {
+    visibility: visible;
+}

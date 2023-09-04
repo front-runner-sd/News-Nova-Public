@@ -1,0 +1,74 @@
+.productCarousel {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+}
+
+.productContainer {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 65rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* -webkit-box-shadow: -18px 16px 23px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -18px 16px 23px -14px rgba(0,0,0,0.75);
+    box-shadow: -18px 16px 23px -14px rgba(0,0,0,0.75); */
+    
+}
+
+.preBtn,
+.nextBtn {
+    width: 5rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.preBtn:disabled  .left,
+.nextBtn:disabled .right{
+    opacity: 0.5; /* Reduced opacity when disabled */
+    cursor: not-allowed; /* Change cursor when disabled */
+}
+
+.nextBtn {
+    right: -0.6rem;
+    z-index: 100;
+    top:2.3rem;
+}
+.preBtn{
+    left: -1.1rem;
+    top:2.3rem;
+}
+.nextBtn .right,
+.preBtn .left {
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: bolder;
+    /* background-color: rgba(255, 255, 255, 0.295); */
+    /* box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.611); */
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 100;
+    visibility: hidden;
+}
+.productCarousel:hover .nextBtn .right,
+.productCarousel:hover .preBtn .left {
+    visibility: visible;
+}
+.nextBtn .right:hover,
+.preBtn .left:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.284);
+}

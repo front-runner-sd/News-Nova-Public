@@ -1,0 +1,89 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #dbdbdb;
+  width: 39rem;
+}
+.img{
+  border-radius: 7px;
+  width: 38.9rem;
+  height: 22rem;
+  margin: 1rem;
+      -webkit-box-shadow: -2px 20px 23px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 20px 23px -14px rgba(0,0,0,0.75);
+    box-shadow: -2px 20px 23px -14px rgba(0,0,0,0.75);
+    filter: contrast(125%) saturate(130%);
+}
+
+.headline{
+  font-size: 1.7rem !important;
+  padding: 0 !important;
+  padding-left: 1.5rem !important;
+  padding-top: 1.5rem !important;
+  padding-right: 1rem !important;
+  word-break: break-all;
+}
+.desc{
+  font-size: 1.3rem;
+  padding: 1.5rem;
+  color: rgb(93, 93, 93);
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.author{
+  display: flex;
+  /* justify-content: space-between; */
+  padding-bottom: 2rem;
+}
+.a1{
+  font-size: 1.2rem;
+  color: gray;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+}
+.a2{
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-right: 1rem;
+  padding-top: .4rem;
+}
+.btn{
+  margin-left: auto;
+  padding-right: 2rem;
+}
+.readMore{
+  font-size: 1.2rem;
+  border: 2px solid black;
+  /* border-radius: 4px; */
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  --c:  #ffffff;
+  
+  box-shadow: 0 0 0 .4rem inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .3s, background-position 0s .4s;
+  background-color: rgba(0, 0, 0, 0.932);
+  color: white;
+}
+.readMore:hover{
+  --_p: 100%;
+  transition: background-position .3s, background-size 0s;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  cursor: pointer;
+}
+.readMore:active{
+  box-shadow: 0 0 9e9q inset rgb(0, 0, 0); 
+  background-color: var(--c);
+  color: white;
+}

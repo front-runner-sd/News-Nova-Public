@@ -1,0 +1,139 @@
+.right{
+    /* background-color: blue; */
+    flex-basis: 30%;
+    flex-shrink: 2;
+    /* background-color: rgb(242, 242, 242); */
+    max-width: 45rem;
+    min-width: 40rem;
+}
+.nav{
+    padding-bottom: 2.5rem;
+    border-bottom: 2px solid #dbdbdb;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.inner{
+    display: flex;
+}
+.login{
+    /* align-self: flex-end; */
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 2px solid #292b2d;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #292b2d;
+    color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.login:hover{
+    background-color: white;
+    color: black;
+}
+.login:active{
+    background-color: black;
+    color: white;
+}
+.dp{
+    width: 6.5rem;
+    border-radius: 50%;
+}
+.userName{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+}
+.icon{
+    font-size: 2.5rem;
+    align-self: center;
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.6s;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: rgb(35, 35, 35);
+    color: white;
+
+}
+
+.userMem{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 1.8rem;
+    color: #8d8d8d;
+}
+
+.topicHeader{
+    font-size: 2.2rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.homeTriggers{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    margin-right: 0rem;
+}
+.homeTriggers button{
+    border:none;
+    border: 2px solid #d9d9d9;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.4s;
+}
+.homeTriggers button:nth-child(even){
+    background-color: #f6f6f6;
+}
+.homeTriggers button:nth-child(odd){
+    background-color: #ffffff;
+}
+.homeTriggers button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.homeTriggers button.toggeled{
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.loader{
+    font-weight: bold;
+    position: relative;
+    top: -70rem;
+}
+.fullScreen{
+    position: absolute;
+    background-color: white;
+    width:100%;
+    height:300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
