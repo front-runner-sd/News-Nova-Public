@@ -1,4 +1,4 @@
-![logo512](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/e3a7fc29-4133-4b9c-8167-745d68edd5ad)
+![logo512](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/15a63aa3-b532-4cd4-860c-f9b84889d8a6)
 
 # News-Nova 📰
 <p>
