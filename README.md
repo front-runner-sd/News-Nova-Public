@@ -54,5 +54,6 @@ You can get news from the sources mentioned below:
 # Tech Stack 🛠
 
 1. React Js
-2. Css
-3. Firebase
+2. Node Js
+3. Css
+4. Firebase
