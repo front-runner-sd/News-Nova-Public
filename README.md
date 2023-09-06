@@ -33,16 +33,18 @@ You can get news from the sources mentioned below:
 2. User can easily Log in and Log Out
  
 ## Images of the UI
-![NN1](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/13143b22-8cd7-4b91-8fbf-5a57a70d4a01)
-![nn2](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/9c40aef3-cc04-4400-b939-33f75cc9ee74)
-![nn3](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/888c7edc-07ed-4a53-ac86-f0660dbdf387)
-![nn4](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/b111220c-bc0f-461b-8a81-9ce77be6117d)
-![nn6](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/026b8c30-a784-4b5e-82dc-61eaa8701834)
-![nn7](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/c2349fdd-b672-47c5-b429-bbe19d3e12a3)
+![NN1](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/13143b22-8cd7-4b91-8fbf-5a57a70d4a01) <br>
+![nn2](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/9c40aef3-cc04-4400-b939-33f75cc9ee74) <br>
+![nn3](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/888c7edc-07ed-4a53-ac86-f0660dbdf387) <br>
+![nn4](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/b111220c-bc0f-461b-8a81-9ce77be6117d) <br>
+![nn6](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/026b8c30-a784-4b5e-82dc-61eaa8701834) <br>
+![nn7](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/c2349fdd-b672-47c5-b429-bbe19d3e12a3) <br>
 
 
 ## Responsiveness
-![Mobile](https://github.com/front-runner-sd/Weather-Matrix/assets/91823106/c5fcb7c5-97be-4881-b3ec-20336b2a9ebb)
+![WhatsApp Image 2023-09-06 at 21 18 05](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/df1b7a5d-423c-4c40-89a8-4a323de0319b)
+![WhatsApp Image 2023-09-06 at 21 18 04](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/8a12efb7-0318-41c9-9de1-8479c2e84d25)
+
 
 # Tools used 🛠
 
