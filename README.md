@@ -2,7 +2,7 @@
 
 # News-Nova 📰
 <p>
-It is a <strong>responsive</strong> & <strong>user-friendly</strong> live news reading website with Authentication functionality⚒️ . <br>
+It is a <strong>responsive</strong> & <strong>user-friendly</strong> live news reading and news searching website with Authentication functionality⚒️ . <br>
 User can be able to get news from 7 different media houses and from 5 different categories.
 </p>
 
@@ -18,6 +18,7 @@ You can get news from the sources mentioned below:
 5. CBS
 6. BBC News
 7. Wall Street Journal
+8. The Guardian
 
 ## News Category include :
 1. Science
@@ -30,7 +31,8 @@ You can get news from the sources mentioned below:
 
 ## Other/Misc Details :
 1. User can able to be a member by creating an account.
-2. User can easily Log in and Log Out
+2. User can search any news
+3. User can easily Log in and Log Out
  
 ## Images of the UI
 ![NN1](https://github.com/front-runner-sd/News-Nova-Public/assets/91823106/13143b22-8cd7-4b91-8fbf-5a57a70d4a01) <br>
